@@ -15,4 +15,9 @@ public class LoginPage
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
+	public void enterUserName()
+	{
+		username.sendKeys("Ashutosh");
+	}
 }
